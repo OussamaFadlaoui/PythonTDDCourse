@@ -4,7 +4,6 @@ class Plant():
   name = "A plant"
 
   def __init__(self) -> None:
-      self.initial_health = 100
       self.watering_level = 100
       self.sunlight_level = 100
 
