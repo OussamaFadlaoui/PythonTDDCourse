@@ -1,7 +1,7 @@
 
 class Plant():
    
-  name = "A plant"
+  name = 'A plant'
 
   def __init__(self) -> None:
       self.watering_level = 100
