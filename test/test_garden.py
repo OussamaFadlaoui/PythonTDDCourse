@@ -1,6 +1,8 @@
 
 import unittest
 
+from models.Garden import Garden
+
 
 class TestGarden(unittest.TestCase):
 
