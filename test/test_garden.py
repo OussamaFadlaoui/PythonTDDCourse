@@ -21,6 +21,7 @@ class TestGarden(unittest.TestCase):
     garden: Garden = Garden()
     africanSheepBush: AfricanSheepBush = AfricanSheepBush()
 
-    garden.add_plant(africanSheepBush)
+    plantAdded: bool = garden.add_plant(africanSheepBush)
 
     self.assertIn(africanSheepBush, garden.plants)
+    self.assertTrue(plantAdded)
